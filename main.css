@@ -30,7 +30,7 @@ address, h1{
     font-weight: bold;
 }
 .home-section{
-    height: 600px;
+    height: 40%;
 }
 .about-section, .home-section{
     background-image: -webkit-linear-gradient(left, #a7cfdf 0%, #23538a 100%);
@@ -106,4 +106,7 @@ address, h1{
 
 .movie-image, .ssf-image, .kunle-image{
     width: 40%;
+}
+.nav-item{
+  text-align: right; !important;
 }
