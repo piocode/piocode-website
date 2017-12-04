@@ -30,7 +30,7 @@ address, h1{
     font-weight: bold;
 }
 .home-section{
-    height: 40%;
+    height: auto;
 }
 .about-section, .home-section{
     background-image: -webkit-linear-gradient(left, #a7cfdf 0%, #23538a 100%);
