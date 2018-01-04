@@ -5,77 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Piocode - </title>
     <script src="https://use.fontawesome.com/13fcc87788.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="material.js"></script>
+
 </head>
 <body>
 <div id="top"></div>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: blue">
-        <a class="navbar-brand" href="#">Piocode</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active hvr-float-shadow">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item hvr-float-shadow">
-                    <a class="nav-link" href="#work">Work</a>
-                </li>
-                <li class="nav-item hvr-float-shadow">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item hvr-float-shadow">
-                    <a class="nav-link" href="#partners">Partners</a>
-                </li>
-                <li class="nav-item hvr-float-shadow">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+    <div class="navbar-fixed white">
+        <nav>
+        <div class="nav-wrapper white red-text">
+            <a href="#!" class="brand-logo red">Piocode</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#home" class="waves-effect waves-light btn red">Home</a></li>
+                <li><a href="#work" class="red-text">Work</a></li>
+                <li><a href="#about" class="red-text">About</a></li>
+                <li><a href="#partners" class="red-text">Partners</a></li>
+                <li><a href="#co ntact" class="red-text">Contact</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/work" class="red-text">Work</a></li>
+                <li><a href="/about" class="red-text">About</a></li>
+                <li><a href="/partners" class="red-text">Partners</a></li>
+                <li><a href="/contact" class="red-text">Contact</a></li>
             </ul>
         </div>
-    </nav>
-    <div id="home"></div>
-    <div class="container-fluid p-3 mb-2 bg-white text-dark home-section">
-        <h1 class="welcome-text">WE TRANSFORM IDEAS INTO AMAZING ONLINE EXPERIENCES.</h1><<br>
-        <h3>We're a small collective of designers and developers who <br>
-            make top quality android applications, web applications and websites.<br></h3>
+        </nav>
     </div>
-    <a id="work"></a>
-    <section class="container-fluid p-3 mb-2 bg-white text-dark work-section">
-        <header>
-            <h1>Work</h1>
-        </header>
-        <div class="container-fluid p-3 mb-2 bg-white text-dark kunle-image hvr-grow-shadow">
-            <h3>Kunle Ishola Law Firm</h3>
-            <p>This is a Law firm located in the heart of Ibadan. They provide
-            quality and reliable legal services to clients both in Nigeria and
-            Abroad.</p>
-            <a href="http://kunleishola.com.ng">kunleishola.com.ng</a>
-        </div>
-        <div class="container-fluid p-3 mb-2 bg-white text-dark ssf-image hvr-grow-shadow">
-            <h3>Sickle Cell Solidarity Foundation</h3>
-            <p>The Sickle Solidarity Foundation has initiated a database of people's
-                genotype which is not only restricted to people with Sickle Cell Anaemia
-                in Nigeria but the entire population at large.</p>
-            <a href="http://ssf.org.ng">ssf.org.ng</a>
-        </div>
-        <div class="container-fluid p-3 mb-2 bg-white text-dark movie-image hvr-grow-shadow">
-            <h3>Movie Search</h3>
-            <p>This is a search engine for movies. You can checkout your<br>
-               favorite movies and movies that you'd love to see.<br>
-               It also contains overview and ratings of movies that <br>
-               are not yet out.<br></p>
-            <a href="http://moviesearch.pythonanywhere.com">moviesearch.pythonanywhere.com</a>
+    <a id="home" class="scrollspy"></a>
+    <section class="section1 color-change-5x white-text">
+        <div class="color-change-5x white-text">
+            <h1 class="center-align">TRANSFORMING IDEAS<br>
+                INTO AMAZING ONLINE<br>
+                EXPERIENCES.<br></h1>
+            <div class="center-align"><a href="#modal1" class="red waves-effect waves-light btn btn-large full-width black-text modal-trigger">Start a project with us</a></div>
         </div>
     </section>
-    <a id="about"></a>
-    <section class="container-fluid p-3 mb-2 bg-white text-dark about-section">
+    <a id="work" class="scrollspy"></a>
+    <section class="section white blue-text">
         <header>
-            <h1>About</h1>
+            <h1 class="center-align bounce-top">Work</h1>
+        </header>
+            <div class="card-panel red">
+                <h3 class="white-text">Kunle Ishola Law Firm</h3>
+                <p class="white-text flow-text">This is a Law firm located in the heart of Ibadan. They provide<br>
+                    quality and reliable legal services to clients both in Nigeria and<br>
+                    Abroad.<br></p>
+                <a class="white-text" href="http://kunleishola.com.ng">kunleishola.com.ng</a>
+
+            </div>
+
+            <div class="card-panel blue">
+                <h3 class="white-text">Sickle Cell Solidarity Foundation</h3>
+                <p class="white-text flow-text">The Sickle Solidarity Foundation has initiated a database of people's<br>
+                    genotype which is not only restricted to people with Sickle Cell Anaemia<br>
+                    in Nigeria but the entire population at large.<br></p>
+                <a class="white-text" href="http://ssf.org.ng">ssf.org.ng<br></a>
+            </div>
+            <div class="card-panel green">
+                <h3 class="white-text">Movie Search</h3>
+                <p class="white-text flow-text">This is a search engine for movies. You can checkout your<br>
+                    favorite movies and movies that you'd love to see.<br>
+                    It also contains overview and ratings of movies that <br>
+                    are not yet out.<br></p>
+                <a class="white-text" href="http://moviesearch.pythonanywhere.com">moviesearch.pythonanywhere.com<br></a>
+            </div>
+
+    </section>
+    <a id="about" class="scrollspy"></a>
+    <section class="section color-change-3x white-text">
+        <header>
+            <h1 class="center-align">About</h1>
         </header>
         <div>
-            <p class="about-paragraph-size">We are a small collective of designers and developers with a <br>
+            <p class="center-align flow-text">We are a small collective of designers and developers with a <br>
                 wealth of experience building digital products. We work with <br>
                 interesting companies on interesting ideas, and partner with <br>
                 people to bring ideas to life on the web.<br>
@@ -84,42 +92,69 @@
                 a stunning experience.<br></p>
         </div>
     </section>
-    <a id="partners"></a>
-    <section class="container-fluid p-3 mb-2 bg-white text-dark team-section">
+    <a id="partners" class="scrollspy"></a>
+    <section class="section white green-text hoverable">
         <header>
-            <h1>Partners</h1>
+            <h1 class="center-align bounce-top green-darken-4-text">Team</h1>
         </header>
-        <div class="container-fluid p-3 mb-2 bg-white text-dark">
-            <h3>Iyanuoluwa Ajao</h3>
-            <h3>Software Developer</h3>
-            <h3><em>aka</em> Ashiri</h3>
-            <p>He codes Python and Android</p>
-            <a href="https://twitter.com/IyanuAshiri?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @IyanuAshiri</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        <div class="container-fluid p-3 mb-2 bg-white text-dark">
-            <h3>Ogundiran Al-Ameen</h3>
-            <h3>Software Developer</h3>
-            <h3><em>aka</em> MentOS</h3>
-            <p>He codes PHP, VueJs and Android</p>
-            <a class="twitter-follow-button" href="https://twitter.com/piomentos" data-size="large">Follow @piomentos</a>
+        <div>
+            <div>
+                <h4 class="center-align">Iyanuoluwa Ajao</h4>
+                <h5 class="center-align">Web and Android Developer</h5>
+                <h5 class="center-align"><em>aka</em> Ashiri</h5>
+            </div>
+            <div>
+                <h4 class="center-align">Ogundiran Al-Ameen</h4>
+                <h5 class="center-align">Web and Android Developer</h5>
+                <h5 class="center-align"><em>aka</em> MentOS</h5>
+            </div>
         </div>
     </section>
-    <section class="container-fluid p-3 mb-2 bg-danger text-white" id="contact">
-        <div class="container-fluid p-3 mb-2 bg-danger text-white">
-            <h4>Have some interesting project to discuss?<br>
-            We are always willing to listen<br></h4>
+    <a id="contact" class="scrollspy"></a>
+    <section class="section black white-text">
+        <div class="">
+            <h2 class="center-align">Have some interesting project to discuss?<br>
+            We are always willing to listen<br></h2>
         </div>
-        <address>
+        <address class="center-align"><h2>
             Send us an email at<br>
             <a href="mailto:info@piocode.com" target="_blank">info@piocode.com</a><br>
             <i class="fa fa-phone" aria-hidden="true"></i>
-             :+2347034366179<br>
+             :+2347034366179<br></h2>
         </address>
-        <footer>Copyright(c).2017</footer>
+        <footer class="center-align">Copyright &copy.2018</footer>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content center">
+      <h5>Get in touch</h5>
+      <div class="row">
+        <form action="mailto:ajaoiyanu@gmail.com" method="post" enctype="text/plain" id="form-demo-request" class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="firstname" type="text" class="validate" name="firstname" required="">
+              <label for="firstname">Full Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="email" type="email" class="validate" name="email" required="">
+              <label for="email" data-error="Invalid email address">Work Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea placeholder="Anything you think might help us better understand your needs" id="about" class="materialize-textarea" name="about"></textarea>
+              <label for="about">Tell us more</label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+    <div class="modal-footer">
+        <a href="#!" id="form-demo-request-submit" class="modal-action modal-close waves-effect waves-green btn-flat">Send</a>
+    </div>
+  </div>
+
 </body>
 </html>
